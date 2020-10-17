@@ -169,3 +169,6 @@ button {outline: none; /* Для синий ободки */
     bottom: 100%;
   }
 }
+.button-box {
+display-flex;
+justify-content:space-around;}
