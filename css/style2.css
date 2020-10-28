@@ -1,0 +1,357 @@
+main {
+	width:1440px;
+}
+header {display: flex;
+	justify-content: space-between;
+	background-image: url(../img/15.jpg);
+	height:581px;
+	width:1440px;
+	}
+	.logo {
+		position: absolute;
+		width: 130px;
+		height: 82.51px;
+		left: 120px;
+		top: 20px;
+		}
+	.статьи {
+
+				position: absolute;
+				width: 61px;
+				height: 25px;
+				left: 710px;
+				top: 33px;
+
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 25px;
+				text-decoration: none;
+				color: #2E2F22;
+			}
+
+	.Обо_мне {
+				position: absolute;
+				width: 76px;
+				height: 25px;
+				left: 854px;
+				top: 33px;
+
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 25px;
+				color: #2E2F22;
+				text-decoration: none;
+	}
+
+	.Портфолию {
+				position: absolute;
+				width: 100px;
+				height: 25px;
+				left: 1013px;
+				top: 33px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 25px;
+				color: #2E2F22;
+				text-decoration: none;
+	}
+
+	.Написать_мне {
+				position: absolute;
+				width: 123px;
+				height: 25px;
+				left: 1196px;
+				top: 33px;
+				font-family: Open Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 25px;
+				color: #2E2F22;
+				text-decoration: none;
+	}
+	.menu-list ul li {
+		list-style-type: none;
+	}
+	*/
+	.menu-list ul {
+		display: flex;
+	    justify-content: space-around;
+	    padding: 3px;
+	    list-style: none;
+	}
+	h2 {
+		margin-left: 20px
+	}
+
+
+#motivation {
+	position: absolute;
+width: 998px;
+height: 1465px;
+left: 119px;
+top: 666px;
+
+}
+.motivation h2 {
+	position: absolute;
+	width: 483px;
+	height: 55px;
+	font-family: Spectral SC;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 55px;
+	color: #2E2F22;
+
+}
+.motivation-heading p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: grey
+}
+.motivation-content-img {
+
+width: 997px;
+height: 463px;
+
+}
+.motivation-content p {
+	
+width: 991px;
+height: 125px;
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+
+
+color: #2E2F22;
+}
+.like {    
+}
+.btn { background-image: url(../img/like.svg);
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 1350px;
+    outline: none;
+}
+.likes {
+	position: absolute;
+  
+    left: 100px;
+    top: 1350px;
+}
+.twitter {
+	position: absolute;
+width: 50px;
+height: 50px;
+left: 875px;
+top: 1350px;
+
+}
+.face {
+		position: absolute;
+
+left: 785px;
+top: 1350px;
+
+	}
+	.vk-icon {
+		position: absolute;
+
+left: 967px;
+top: 1350px;
+
+	}
+
+.motivation-content-button {
+	margin-top: 120px;}
+
+#reviews {position: absolute;
+width: 793px;
+height: 816px;
+left: 121px;
+top: 2196px;
+}
+.reviews-content {
+	background: #ECE1E1;
+border-radius: 10px;
+}
+.reviews-content a img { 
+width: 50px;
+height: 50px;
+
+box-sizing: border-box;
+border-radius: 10px;
+}
+.reviews-comment-name {
+	color: #000 !important;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.reviews-content p {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #2E2F22;
+}
+.reviews-content-1 {
+	display: flex;
+	flex-direction: column;
+}
+.reviews-content-1-1 {
+	display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 100px;
+height: 50px;
+padding-top: 25px;
+}
+.reviews-content-2 {
+	display: flex;
+	flex-direction: column;
+}
+.reviews-content-2-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 100px;
+	height: 50px;
+	padding-top: 25px;
+}
+.reviews-content-3 {
+	display: flex;
+	flex-direction: column;
+}
+.reviews-content-3-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 100px;
+	height: 50px;
+	padding-top: 25px;
+}
+.reviews-comment-content-1-1-1, .reviews-comment-content-2-2-2, .reviews-comment-content-3-3-3 {margin-left: 100px;}
+.reviews-comment {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.write-me-form {
+	margin-top: 15px;
+}
+.write-me-form-input {
+	width: 350px;
+    height: 63px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.write-me-form-input-text {
+	width: 350px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.write-me-form-input-button {
+	position: absolute;
+    width: 350px;
+    height: 46px;
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+} 
+footer {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 2900px;
+	background: #D7D1C9;}
+
+	.footer-menu ul {
+		display: flex;
+	    justify-content: space-around;
+	    padding: 3px;
+	    list-style: none;
+	}
+	.footer-menu ul li {
+		list-style-type: none;
+	}
+	.vk {
+		text-decoration: none;
+	width: 23px;
+	height: 25px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	}
+	.teleg {
+		position: absolute;
+	width: 23px;
+	height: 25px;
+	text-decoration: none;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	}
+	.inst {
+		position: absolute;
+		width: 23px;
+		height: 25px;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 25px;
+		color: #2E2F22;
+		text-decoration: none;
+
+	}
+	.twit {
+		position: absolute;
+		width: 23px;
+		height: 25px;
+		text-decoration: none;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 25px;
+		color: #2E2F22;
+
+	}
+	
